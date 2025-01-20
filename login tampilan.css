@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #23b0db;
+}
+nav {
+    background-color: #43454b;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.content {
+    padding: 20px;
+}
+.login-form, .register-form {
+    max-width: 300px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    background: rgb(165, 182, 178);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.6);
+    border-radius: 10px;
+}
+.login-form h3, .register-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login-form input, .register-form input, .register-form select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button, .register-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    background-color: #72756e;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.6);
+    border-radius: 10px;
+}
+.login-form button:hover, .register-form button:hover {
+    background-color: #a8bb8f;
+}
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.register-form .gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
